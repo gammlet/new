@@ -1,5 +1,8 @@
- function lol(){
+function lol(){
+
  let c = Number(prompt('первый игрк введи число'))
+ if(c=>0)
+ {
  let b = c+1
  alert('подойди 2 игрок')
  let quastion = confirm("хош задачу?");
@@ -9,6 +12,7 @@
   console.log(a)
    if ( a==c ){
      alert('да ты просто гений')
+      
    }
     else{
       alert('кхм иди в шкилу молодой')
@@ -18,4 +22,8 @@
 else {
     alert("как хош")
 } 
+}
+else{
+  alert('первый игрок кайфалом')
+}
 }
