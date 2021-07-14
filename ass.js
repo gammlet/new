@@ -1,7 +1,7 @@
 function lol(){
 
  let c = Number(prompt('первый игрк введи число'))
- if(c=>0)
+ if(0<=c)
  {
  let b = c+1
  alert('подойди 2 игрок')
