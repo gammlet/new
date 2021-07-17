@@ -1,0 +1,45 @@
+fieldset{
+    width: 5cm;
+    background-color: aqua;
+    display: inline
+    
+}
+legend{
+    color:#3b3f72;
+    Font-size: 120%;
+ }
+ h2 {
+    position: fixed;
+    top: 50px;
+    left: 100px;
+    width: 320px;
+    margin-top: 20;
+    background: rgb(61, 227, 233);
+    padding: 10px;
+  }
+p{
+    top: 50px;
+    left: 100px; 
+}
+body::after {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    background: conic-gradient(black, white);
+    animation: ff infinite linear 3s;
+    /* box-shadow: 0 0 20px 20px rgba(255,255,255,1); */
+  }
+  @keyframes ff {
+    to {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  } 
+  div{
+    width: 60px;
+  height: 60px;  
+  }
